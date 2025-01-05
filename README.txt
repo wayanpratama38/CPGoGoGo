@@ -1,0 +1,1 @@
+This is documentation for my CodeForce, HackerRank, and LeetCode
