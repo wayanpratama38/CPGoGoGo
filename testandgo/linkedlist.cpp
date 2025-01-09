@@ -93,7 +93,8 @@ int main(){
     Node* head = createSimpleLinkedList();
     // Calling a function to add at beginning of the existing linked list
     Node* newHead = addAtBeginning(head,0);
-
+    // Calling a function to add at the end of the existing linked list
+    Node* addEndingHead = addAtEnd(newHead,4);
     // Print the linked list
-    printLinkedList(newHead);
+    printLinkedList(addEndingHead);
 }
